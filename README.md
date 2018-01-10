@@ -25,10 +25,9 @@ Once it's installed, you can deploy the Graphcool service based on the existing 
 ```sh
 cd server
 yarn install
-graphcool deploy server
+graphcool deploy
+yarn start
 ```
-
-When prompted which cluster you want to deploy to, choose any of the **Shared Clusters** options (`shared-eu-west-1`, `shared-ap-northeast-1` or `shared-us-west-2`).
 
 ### 3. Connect the app with your GraphQL API
 
