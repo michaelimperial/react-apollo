@@ -11,7 +11,7 @@ async function feed(parent, args, ctx, info) {
 
   return {
     linkIds: queriedLinkes.map(link => link.id),
-    count
+    count,
   }
 }
 
